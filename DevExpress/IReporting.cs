@@ -8,7 +8,7 @@ namespace DevExpress
 {
     internal interface IReporting
     {
-        public string GetReport(object[] objects, bool vertical);
-        public string GetReport(List<object> objects, bool vertical);
+        public string GetReport(object[] objects);
+        public string GetReport(List<object> objects);
     }
 }

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace DevExpress
 {
-    [ConsoleWriting]
-    internal class Person:IPerson
+    internal class Dog
     {
 
         public string Name { get; set; }
-        [NotPrintable] public int Age { get; set; }
+        public string Poroda { get; set; }
+        public int LenghtOfTail;
     }
 }

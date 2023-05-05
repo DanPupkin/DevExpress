@@ -16,13 +16,13 @@ namespace DevExpress
             Reporting = new ConsoleReportig();
         
         }
-        public string GetReport(object[] objects, bool vertical)
+        public string GetReport(object[] objects)
         {
-            return Reporting.GetReport(objects, vertical);
+            return Reporting.GetReport(objects);
         }
-        public string GetReport(List<object> objects, bool vertical)
+        public string GetReport(List<object> objects)
         {
-            return Reporting.GetReport(objects, vertical);
+            return Reporting.GetReport(objects);
         }
 
 

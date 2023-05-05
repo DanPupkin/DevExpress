@@ -6,9 +6,18 @@ using System.Threading.Tasks;
 
 namespace DevExpress
 {
+    [ConsoleWriting]
     internal interface IPerson
     {
         string Name { get; }
-        int Age { get; }
+        [NotPrintable] int Age { get; }
     }
+
+    //[NotPrintable]
+    //public class Age
+    //{
+    //    int age { set; get; }
+    //    public Age(int age)
+    //    { this.age = age; }
+    //}
 }
